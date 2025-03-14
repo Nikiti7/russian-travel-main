@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+
+/* 
+font-family: "Inter", sans-serif; 400, 700, 900 
+*/
+body {
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+
+	background-color: #2A2C2F;
+	color: #fff;
+	font-size: 16px;
+}
+
+.container {
+	max-width: 1280px;
+	margin: 28px auto;
+}
+
+/* ----------------- HEADER ----------------- */
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.lang-link {
+	font-size: 24px;
+}
+
+.lang-link + .lang-link {
+	margin-left: 18px;
+}
+
+.active {
+	text-decoration:underline;
+}
+
+/* ----------------- LEAD -------------- */
+.lead {
+	margin: 56px 100px 0;
+	text-align: center;
+
+	width: 984px;
+}
+
+.lead__title {
+	font-weight: 900;
+	font-size: 96px;
+
+	padding: 0 40px;
+	margin-bottom: 32px;
+
+}
+
+.lead__subtitle {
+	font-size: 30px;
+	margin-bottom: 64px;
+}
+
+.lead__caption {
+	font-size: 10px;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+
+	text-align: start;
+	margin-top: 8px;
+}
+
+/* ----------------- INTRO -------------- */
+
+.intro {
+	width: 984px;
+	margin: 92px 100px 0;
+	padding-right: 294px;
+
+}
+
+.intro__title {
+	font-weight: 900;
+	font-size: 54px;
+
+	margin-bottom: 40px;
+}
+
+.intro__list {
+	font-weight: 700;
+	font-size: 12px;
+
+	margin-top: 34px;
+}
+
+.intro__list span {
+	font-weight: 400;
+}
+
+
+.photo-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 284px);
+	grid-template-rows: repeat(3, 214px);
+
+	gap: 16px;
+	margin: 92px 48px 0;
+
+}
